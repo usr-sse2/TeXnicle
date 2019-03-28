@@ -7,7 +7,7 @@
 //
 
 #import "TPParsedLog.h"
-#import "TPTexLogParser.h"
+#import "TPTeXLogParser.h"
 #import "TPLogFileItem.h"
 #import "TPLogItem.h"
 #import "MHFileReader.h"

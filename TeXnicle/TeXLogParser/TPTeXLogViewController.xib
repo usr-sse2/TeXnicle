@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="11762" systemVersion="16C63a" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="11762"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14490.70"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -55,11 +55,11 @@
                             </outlineView>
                         </subviews>
                     </clipView>
-                    <scroller key="horizontalScroller" hidden="YES" verticalHuggingPriority="750" horizontal="YES" id="5">
+                    <scroller key="horizontalScroller" hidden="YES" wantsLayer="YES" verticalHuggingPriority="750" horizontal="YES" id="5">
                         <rect key="frame" x="1" y="411" width="412" height="16"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </scroller>
-                    <scroller key="verticalScroller" hidden="YES" verticalHuggingPriority="750" horizontal="NO" id="7">
+                    <scroller key="verticalScroller" hidden="YES" wantsLayer="YES" verticalHuggingPriority="750" horizontal="NO" id="7">
                         <rect key="frame" x="224" y="17" width="15" height="102"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </scroller>
@@ -68,7 +68,7 @@
                     <rect key="frame" x="0.0" y="0.0" width="414" height="24"/>
                     <subviews>
                         <segmentedControl verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="33">
-                            <rect key="frame" x="7" y="3" width="54" height="17"/>
+                            <rect key="frame" x="7" y="3" width="54" height="16"/>
                             <constraints>
                                 <constraint firstAttribute="width" constant="54" id="ZAR-co-3lI"/>
                             </constraints>
@@ -87,7 +87,7 @@
                             </connections>
                         </segmentedControl>
                         <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="38" customClass="HHValidatedButton">
-                            <rect key="frame" x="303" y="3" width="103" height="17"/>
+                            <rect key="frame" x="303" y="4" width="103" height="15"/>
                             <constraints>
                                 <constraint firstAttribute="width" constant="103" id="ILr-CQ-hg7"/>
                             </constraints>

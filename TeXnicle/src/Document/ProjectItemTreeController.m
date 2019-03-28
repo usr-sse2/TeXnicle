@@ -1397,7 +1397,7 @@ NSString * const TPDocumentWasRenamed = @"TPDocumentWasRenamed";
     ProjectItemEntity *object = [item representedObject];
     
     [cell setImageSize:imageSize];
-    [cell setTextColor:[NSColor blackColor]];
+    [cell setTextColor:[NSColor labelColor]];
     
     if ([object isMemberOfClass:[FolderEntity class]]) {
       //    NSLog(@"%@ is a folder", [object name]);

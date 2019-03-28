@@ -67,6 +67,7 @@
 					image = [[NSImage alloc] initWithContentsOfFile:[[[NSBundle mainBundle] resourcePath] stringByAppendingPathComponent:@"Palette/unknown.pdf"]];
 				}
 			}
+      [image setTemplate:YES];
 			symbol[@"ImageData"] = image;
 		}
 	}
@@ -83,9 +84,9 @@
 	[doc appendString:@"\\usepackage{amsmath} %maths\n"];
 	[doc appendString:@"\\usepackage[utf8]{inputenc} %useful to type directly diacritic characters\n"];
 	if (mathMode) {
-		[doc appendFormat:@"\\pagestyle{empty} \\begin{document}{$%@$\\end{document}", [code stringByReplacingOccurrencesOfString:@"\/" withString:@"\\/"]];
+		[doc appendFormat:@"\\pagestyle{empty} \\begin{document}{$%@$\\end{document}", [code stringByReplacingOccurrencesOfString:@"/" withString:@"\\/"]];
 	} else {
-		[doc appendFormat:@"\\pagestyle{empty} \\begin{document}%@\\end{document}", [code stringByReplacingOccurrencesOfString:@"\/" withString:@"\\/"]];
+		[doc appendFormat:@"\\pagestyle{empty} \\begin{document}%@\\end{document}", [code stringByReplacingOccurrencesOfString:@"/" withString:@"\\/"]];
 	}
 	
 	
@@ -130,6 +131,7 @@
 	// read pdf data in
   //	NSData *data = [NSData dataWithContentsOfFile:croppedPDF];
 	NSImage *pdfimage = [[NSImage alloc] initWithContentsOfFile:croppedPDF];
+  [pdfimage setTemplate:YES];
 	//NSLog(@"made image at: %@", aPath);
 	return pdfimage;
 }

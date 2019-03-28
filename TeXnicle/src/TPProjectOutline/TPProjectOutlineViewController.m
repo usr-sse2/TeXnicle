@@ -129,10 +129,10 @@
 
 - (void) setupOutlineView
 {
-  if ([NSApp isYosemite] == NO) {
+  /*if ([NSApp isYosemite] == NO) {
     TPTheme *theme = [TPThemeManager currentTheme];
     [self.outlineView setBackgroundColor:theme.outlineBackgroundColor];
-  }
+  }*/
 }
 
 - (void) setupOutlineBuilder
@@ -368,10 +368,10 @@
 
 - (void) outlineView:(NSOutlineView *)outlineView willDisplayCell:(id)cell forTableColumn:(NSTableColumn *)tableColumn item:(id)item
 {
-  if ([NSApp isYosemite] == NO) {
+  /*if ([NSApp isYosemite] == NO) {
     TPTheme *theme = [TPThemeManager currentTheme];
     [cell setBackgroundColor:theme.outlineBackgroundColor];
-  }
+  }*/
   
   if (self.currentSection == item) {
     NSMutableAttributedString *title = [[cell objectValue] mutableCopy];

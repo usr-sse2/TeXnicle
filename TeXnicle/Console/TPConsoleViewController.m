@@ -84,7 +84,7 @@
 
 - (void)awakeFromNib
 {
-  NSColor *color1 = [NSColor colorWithDeviceRed:231.0/255.0 green:231.0/255.0 blue:231.0/255.0 alpha:1.0];
+  NSColor *color1 = [NSColor controlBackgroundColor];
   [self.toolbarView setFillColor:color1];
   
   self.logViewController = [[TPTeXLogViewController alloc] initWithParsedLog:nil delegate:self];

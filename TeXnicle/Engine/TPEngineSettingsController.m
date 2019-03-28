@@ -83,14 +83,13 @@ NSString * const TPSpellingAutomaticByLanguage = @"Automatic By Language";
   [view setStrokeColor:[NSColor darkGrayColor]];
   [view setStrokeSides:YES];
   
-  NSColor *color1 = [NSColor colorWithDeviceRed:231.0/255.0 green:231.0/255.0 blue:231.0/255.0 alpha:1.0];
-  NSColor *color2 = [NSColor colorWithDeviceRed:221.0/255.0 green:221.0/255.0 blue:221.0/255.0 alpha:1.0];
+  NSColor *color1 = [NSColor controlBackgroundColor];
   
   self.pane1.fillColor = color1;
   self.pane1.strokeSides = YES;
   self.pane2.fillColor = color1;
   self.pane2.strokeSides = YES;
-  self.pane3.fillColor = color2;
+  self.pane3.fillColor = color1;
   self.pane3.strokeSides = YES;
   self.pane4.fillColor = color1;
   self.pane4.strokeSides = YES;

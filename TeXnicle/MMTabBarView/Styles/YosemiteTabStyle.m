@@ -343,14 +343,14 @@
     case MMTabBarHorizontalOrientation :
       if (_drawsUnified) {
         if ([tabBarView isWindowActive]) {
-          NSGradient *gradient = [[NSGradient alloc] initWithStartingColor:[NSColor colorWithCalibratedWhite:203.0/255.0 alpha:1.0] endingColor:[NSColor colorWithCalibratedWhite:203.0/255.0 alpha:1.0]];
+          NSGradient *gradient = [[NSGradient alloc] initWithStartingColor:[NSColor controlBackgroundColor] endingColor:[NSColor controlBackgroundColor]];
           [gradient drawInRect:rect angle:90.0];
         } else {
           [[NSColor windowBackgroundColor] set];
           NSRectFill(rect);
         }
       } else {
-        [[NSColor colorWithCalibratedWhite:0.85 alpha:0.6] set];
+        [[NSColor windowBackgroundColor] set];
         [NSBezierPath fillRect:rect];
       }
       break;
@@ -371,7 +371,7 @@
   
   NSShadow *shadow = [[NSShadow alloc] init];
   [shadow setShadowBlurRadius:2];
-  [shadow setShadowColor:[NSColor colorWithCalibratedWhite:0.65 alpha:1.0]];
+  [shadow setShadowColor:[NSColor controlShadowColor]];
   
   [[NSColor grayColor] set];
   
@@ -567,7 +567,7 @@
     
     // fill
     if ([tabBarView isWindowActive]) {
-      NSGradient *gradient = [[NSGradient alloc] initWithStartingColor:[NSColor colorWithCalibratedWhite:233.0/255.0 alpha:1.0] endingColor:[NSColor colorWithCalibratedWhite:233.0/255.0 alpha:1.0]];
+      NSGradient *gradient = [[NSGradient alloc] initWithStartingColor:[NSColor windowBackgroundColor] endingColor:[NSColor windowBackgroundColor]];
       [gradient drawInRect:aRect angle:90.0];
     } else {
       [[NSColor windowBackgroundColor] set];

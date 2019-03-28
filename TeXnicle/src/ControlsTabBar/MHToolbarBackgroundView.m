@@ -34,13 +34,12 @@
 -(void)awakeFromNib
 {
   if ([NSApp isYosemite]) {
-    self.startingColor = [NSColor colorWithDeviceRed:239/255.0 green:239/255.0 blue:239/255.0 alpha:1.0];
+    self.startingColor = [NSColor controlBackgroundColor];
     self.endingColor = [self.startingColor copy];
 //    self.endingColor = [NSColor colorWithDeviceRed:203/255.0 green:203/255.0 blue:203/255.0 alpha:1.0];
   } else {
-    CGFloat v = 240;
-    self.startingColor = [NSColor colorWithDeviceRed:v/255.0 green:v/255.0 blue:v/255.0 alpha:1.0];
-    self.endingColor = [NSColor lightGrayColor];
+    self.startingColor = [NSColor controlBackgroundColor];
+    self.endingColor = [NSColor controlBackgroundColor];
   }
   self.angle = 270;
   self.cornerRadius = 0;

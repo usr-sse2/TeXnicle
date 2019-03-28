@@ -118,7 +118,7 @@
                                                    atDistance:0.0];
     }
 		[self.attachedWindow setBorderColor:[NSColor clearColor]];
-		[self.attachedWindow setBackgroundColor:[NSColor whiteColor]];
+		[self.attachedWindow setBackgroundColor:[NSColor windowBackgroundColor]];
 		[self.attachedWindow setViewMargin:5.0];
 		[self.attachedWindow setBorderWidth:3.0];
 		[self.attachedWindow setCornerRadius:5.0];

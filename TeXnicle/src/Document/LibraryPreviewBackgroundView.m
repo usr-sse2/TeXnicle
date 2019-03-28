@@ -44,7 +44,7 @@
 - (void)drawRect:(NSRect)dirtyRect
 {
   // Drawing code here.
-  [[NSColor whiteColor] set];
+  [[NSColor controlBackgroundColor] set];
   NSRectFill([self bounds]);
 }
 

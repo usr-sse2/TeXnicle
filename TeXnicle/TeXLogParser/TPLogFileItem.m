@@ -62,7 +62,7 @@
 
 - (NSAttributedString*)attributedString
 {
-  return [self attributedStringWithColor:[NSColor blackColor]];
+  return [self attributedStringWithColor:[NSColor labelColor]];
 }
 
 
