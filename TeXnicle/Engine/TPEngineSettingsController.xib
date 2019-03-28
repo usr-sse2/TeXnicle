@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="11542" systemVersion="16C53a" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="11542"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14490.70"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -29,7 +29,7 @@
         </customObject>
         <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
         <customObject id="-3" userLabel="Application" customClass="NSObject"/>
-        <customView id="1" customClass="MHStrokedVibrantView">
+        <customView id="1" customClass="NSVisualEffectView">
             <rect key="frame" x="0.0" y="0.0" width="234" height="506"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
@@ -37,7 +37,7 @@
                     <rect key="frame" x="0.0" y="447" width="234" height="60"/>
                     <subviews>
                         <popUpButton verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="8">
-                            <rect key="frame" x="70" y="16" width="147" height="26"/>
+                            <rect key="frame" x="70" y="16" width="147" height="25"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="21" id="dGr-id-1vG"/>
                             </constraints>
@@ -152,7 +152,7 @@
                             </connections>
                         </textField>
                         <popUpButton verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="U4n-II-ULw">
-                            <rect key="frame" x="32" y="172" width="185" height="26"/>
+                            <rect key="frame" x="32" y="172" width="185" height="25"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="21" id="nGf-hy-oEc"/>
                             </constraints>
@@ -189,7 +189,7 @@
                             </constraints>
                             <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="3pU-iA-Hvc">
                                 <font key="font" metaFont="system"/>
-                                <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                 <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                             </textFieldCell>
                             <connections>
@@ -282,7 +282,7 @@
                     <rect key="frame" x="0.0" y="90" width="234" height="60"/>
                     <subviews>
                         <popUpButton verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="48">
-                            <rect key="frame" x="88" y="16" width="129" height="26"/>
+                            <rect key="frame" x="88" y="16" width="129" height="25"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="21" id="eWz-tj-b75"/>
                             </constraints>

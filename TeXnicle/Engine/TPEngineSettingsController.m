@@ -78,21 +78,12 @@ NSString * const TPSpellingAutomaticByLanguage = @"Automatic By Language";
 
 - (void) awakeFromNib
 {
-  MHStrokedFiledView *view = (MHStrokedFiledView*)[self view];
-  [view setFillColor:[NSColor controlColor]];
-  [view setStrokeColor:[NSColor darkGrayColor]];
-  [view setStrokeSides:YES];
-  
   NSColor *color1 = [NSColor controlBackgroundColor];
   
   self.pane1.fillColor = color1;
-  self.pane1.strokeSides = YES;
   self.pane2.fillColor = color1;
-  self.pane2.strokeSides = YES;
   self.pane3.fillColor = color1;
-  self.pane3.strokeSides = YES;
   self.pane4.fillColor = color1;
-  self.pane4.strokeSides = YES;
   
   // set available languages
   [self setupLanguageOptions];

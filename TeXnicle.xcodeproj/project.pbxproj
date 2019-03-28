@@ -637,7 +637,6 @@
 		25E5024B13A09F8D004A983E /* TeXnicle.mdimporter in CopyFiles */ = {isa = PBXBuildFile; fileRef = 25077312138E5D82000F1118 /* TeXnicle.mdimporter */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		25E5024C13A0B439004A983E /* schema.xml in Resources */ = {isa = PBXBuildFile; fileRef = 25E50246139FC9F5004A983E /* schema.xml */; };
 		25E513CA1459968600D13D1D /* zoomToFit.icns in Resources */ = {isa = PBXBuildFile; fileRef = 25E513C91459968600D13D1D /* zoomToFit.icns */; };
-		25E65C53179D255F00B0FA5A /* MHWhiteBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 25E65C52179D255F00B0FA5A /* MHWhiteBackgroundView.m */; };
 		25E7B13615AB39C400373A56 /* TPSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 25E7B13515AB39C400373A56 /* TPSection.m */; };
 		25E7B13915AB3A6C00373A56 /* TPOutlineBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 25E7B13815AB3A6C00373A56 /* TPOutlineBuilder.m */; };
 		25E7B13C15AB3C7700373A56 /* TPSectionTemplate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25E7B13B15AB3C7700373A56 /* TPSectionTemplate.m */; };
@@ -1648,8 +1647,6 @@
 		25E0EB0C14AF0D380039E82B /* MHPlaceholderAttachmentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHPlaceholderAttachmentCell.m; sourceTree = "<group>"; };
 		25E50246139FC9F5004A983E /* schema.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = schema.xml; sourceTree = "<group>"; };
 		25E513C91459968600D13D1D /* zoomToFit.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = zoomToFit.icns; sourceTree = "<group>"; };
-		25E65C51179D255F00B0FA5A /* MHWhiteBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHWhiteBackgroundView.h; sourceTree = "<group>"; };
-		25E65C52179D255F00B0FA5A /* MHWhiteBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHWhiteBackgroundView.m; sourceTree = "<group>"; };
 		25E7B13415AB39C400373A56 /* TPSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPSection.h; sourceTree = "<group>"; };
 		25E7B13515AB39C400373A56 /* TPSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPSection.m; sourceTree = "<group>"; };
 		25E7B13715AB3A6C00373A56 /* TPOutlineBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPOutlineBuilder.h; sourceTree = "<group>"; };
@@ -2247,8 +2244,6 @@
 				252481C2179BD93100602FCC /* TPThemeEditorViewController.h */,
 				252481C3179BD93100602FCC /* TPThemeEditorViewController.m */,
 				252481C4179BD93100602FCC /* TPThemeEditorViewController.xib */,
-				25E65C51179D255F00B0FA5A /* MHWhiteBackgroundView.h */,
-				25E65C52179D255F00B0FA5A /* MHWhiteBackgroundView.m */,
 				252481C7179C2C7100602FCC /* NSDictionary+Theme.h */,
 				252481C8179C2C7100602FCC /* NSDictionary+Theme.m */,
 				252481CA179C341C00602FCC /* NSColor+ContrastingLabelExtensions.h */,

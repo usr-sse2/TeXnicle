@@ -78,9 +78,6 @@
   [path setLineWidth:1.0];
   [self.strokeColor set];
   [path stroke];
-  [self.fillColor set];
-  NSRectFill(r);
-  
 }
 
 @end

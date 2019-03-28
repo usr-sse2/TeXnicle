@@ -95,7 +95,7 @@
                     <font key="font" metaFont="system"/>
                     <tabViewItems>
                         <tabViewItem label="Document" identifier="1" id="14">
-                            <view key="view" id="17" customClass="MHWhiteBackgroundView">
+                            <view key="view" id="17">
                                 <rect key="frame" x="0.0" y="0.0" width="373" height="251"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <subviews>
@@ -213,7 +213,7 @@
                             </view>
                         </tabViewItem>
                         <tabViewItem label="Syntax" identifier="2" id="15">
-                            <view key="view" id="16" customClass="MHWhiteBackgroundView">
+                            <view key="view" id="16">
                                 <rect key="frame" x="0.0" y="0.0" width="373" height="251"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <subviews>
@@ -222,7 +222,7 @@
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                         <clipView key="contentView" id="f0s-e0-Jef">
                                             <rect key="frame" x="0.0" y="0.0" width="373" height="198"/>
-                                            <autoresizingMask key="autoresizingMask"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                             <subviews>
                                                 <tableView focusRingType="none" verticalHuggingPriority="750" allowsExpansionToolTips="YES" columnAutoresizingStyle="sequential" selectionHighlightStyle="sourceList" columnReordering="NO" columnResizing="NO" multipleSelection="NO" emptySelection="NO" autosaveColumns="NO" rowHeight="20" id="71">
                                                     <rect key="frame" x="0.0" y="0.0" width="373" height="198"/>
@@ -317,7 +317,7 @@
                             </view>
                         </tabViewItem>
                         <tabViewItem label="Outline" identifier="" id="18">
-                            <view key="view" id="19" customClass="MHWhiteBackgroundView">
+                            <view key="view" id="19">
                                 <rect key="frame" x="0.0" y="0.0" width="373" height="251"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <subviews>
@@ -326,7 +326,7 @@
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                         <clipView key="contentView" id="jIa-eu-lQz">
                                             <rect key="frame" x="0.0" y="0.0" width="373" height="225"/>
-                                            <autoresizingMask key="autoresizingMask"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                             <subviews>
                                                 <tableView focusRingType="none" verticalHuggingPriority="750" allowsExpansionToolTips="YES" columnAutoresizingStyle="sequential" selectionHighlightStyle="sourceList" columnReordering="NO" columnResizing="NO" multipleSelection="NO" emptySelection="NO" autosaveColumns="NO" rowHeight="20" id="79">
                                                     <rect key="frame" x="0.0" y="0.0" width="373" height="225"/>
