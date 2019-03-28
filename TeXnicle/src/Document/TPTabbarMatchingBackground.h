@@ -6,8 +6,8 @@
 //  Copyright (c) 2012 bobsoft. All rights reserved.
 //
 
-#import "SBGradientView.h"
+#import <Foundation/Foundation.h>
 
-@interface TPTabbarMatchingBackground : SBGradientView
+@interface TPTabbarMatchingBackground : NSView
 
 @end

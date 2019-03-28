@@ -26,14 +26,9 @@
 //
 
 #import <Cocoa/Cocoa.h>
-#import "SBGradientView.h"
 
-
-@interface TETopBarView : SBGradientView {
+@interface TETopBarView : NSView {
 
 }
-
-- (void) handleWindowDidBecomeMain:(NSNotification*)notification;
-- (void) handleWindowResignedMain:(NSNotification*)notification;
 
 @end

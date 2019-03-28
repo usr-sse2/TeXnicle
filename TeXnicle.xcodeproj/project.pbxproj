@@ -304,7 +304,6 @@
 		257B4799138E5E9000ED02C4 /* TeXTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 257B4769138E5E9000ED02C4 /* TeXTextView.m */; };
 		257B479A138E5E9000ED02C4 /* TPSectionListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 257B476B138E5E9000ED02C4 /* TPSectionListController.m */; };
 		257B479B138E5E9000ED02C4 /* NSColorArrayTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 257B476E138E5E9000ED02C4 /* NSColorArrayTransformer.m */; };
-		257B479D138E5E9000ED02C4 /* SBGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = 257B4773138E5E9000ED02C4 /* SBGradientView.m */; };
 		257B479E138E5E9000ED02C4 /* TETopBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 257B4775138E5E9000ED02C4 /* TETopBarView.m */; };
 		257B479F138E5E9000ED02C4 /* TeXEditorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 257B4777138E5E9000ED02C4 /* TeXEditorViewController.m */; };
 		257B47A0138E5E9000ED02C4 /* TeXEditorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 257B4778138E5E9000ED02C4 /* TeXEditorViewController.xib */; };
@@ -1212,8 +1211,6 @@
 		257B476B138E5E9000ED02C4 /* TPSectionListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPSectionListController.m; sourceTree = "<group>"; };
 		257B476D138E5E9000ED02C4 /* NSColorArrayTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSColorArrayTransformer.h; sourceTree = "<group>"; };
 		257B476E138E5E9000ED02C4 /* NSColorArrayTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSColorArrayTransformer.m; sourceTree = "<group>"; };
-		257B4772138E5E9000ED02C4 /* SBGradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBGradientView.h; sourceTree = "<group>"; };
-		257B4773138E5E9000ED02C4 /* SBGradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBGradientView.m; sourceTree = "<group>"; };
 		257B4774138E5E9000ED02C4 /* TETopBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TETopBarView.h; sourceTree = "<group>"; };
 		257B4775138E5E9000ED02C4 /* TETopBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TETopBarView.m; sourceTree = "<group>"; };
 		257B4776138E5E9000ED02C4 /* TeXEditorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeXEditorViewController.h; sourceTree = "<group>"; };
@@ -2681,8 +2678,6 @@
 		257B4771138E5E9000ED02C4 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				257B4772138E5E9000ED02C4 /* SBGradientView.h */,
-				257B4773138E5E9000ED02C4 /* SBGradientView.m */,
 				257B4774138E5E9000ED02C4 /* TETopBarView.h */,
 				257B4775138E5E9000ED02C4 /* TETopBarView.m */,
 				257B4776138E5E9000ED02C4 /* TeXEditorViewController.h */,
@@ -3919,7 +3914,6 @@
 				257B479A138E5E9000ED02C4 /* TPSectionListController.m in Sources */,
 				257B479B138E5E9000ED02C4 /* NSColorArrayTransformer.m in Sources */,
 				25DB59731778C1A3000383AF /* SMTabBarButtonCell.m in Sources */,
-				257B479D138E5E9000ED02C4 /* SBGradientView.m in Sources */,
 				257B479E138E5E9000ED02C4 /* TETopBarView.m in Sources */,
 				257B479F138E5E9000ED02C4 /* TeXEditorViewController.m in Sources */,
 				257B47A1138E5E9000ED02C4 /* UKTextDocGoToBox.m in Sources */,

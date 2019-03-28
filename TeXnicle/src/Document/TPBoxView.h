@@ -6,7 +6,7 @@
 //  Copyright (c) 2013 bobsoft. All rights reserved.
 //
 
-#import "SBGradientView.h"
+#import <Foundation/Foundation.h>
 
 @interface TPBoxView : NSView {
 @private

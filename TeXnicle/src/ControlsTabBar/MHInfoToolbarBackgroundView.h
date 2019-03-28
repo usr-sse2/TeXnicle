@@ -25,8 +25,8 @@
 //  SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 //
 
-#import "SBGradientView.h"
+#import <Foundation/Foundation.h>
 
-@interface MHInfoToolbarBackgroundView : SBGradientView
+@interface MHInfoToolbarBackgroundView : NSView
 
 @end

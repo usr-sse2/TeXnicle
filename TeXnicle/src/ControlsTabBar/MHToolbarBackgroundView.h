@@ -27,9 +27,8 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "SBGradientView.h"
 
-@interface MHToolbarBackgroundView : SBGradientView
+@interface MHToolbarBackgroundView : NSView
 
 @property (assign) BOOL strokeLeftSide;
 @property (assign) BOOL strokeRightSide;

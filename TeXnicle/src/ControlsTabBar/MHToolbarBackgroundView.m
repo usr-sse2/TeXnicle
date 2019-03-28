@@ -31,21 +31,6 @@
 
 @implementation MHToolbarBackgroundView
 
--(void)awakeFromNib
-{
-  if ([NSApp isYosemite]) {
-    self.startingColor = [NSColor controlBackgroundColor];
-    self.endingColor = [self.startingColor copy];
-//    self.endingColor = [NSColor colorWithDeviceRed:203/255.0 green:203/255.0 blue:203/255.0 alpha:1.0];
-  } else {
-    self.startingColor = [NSColor controlBackgroundColor];
-    self.endingColor = [NSColor controlBackgroundColor];
-  }
-  self.angle = 270;
-  self.cornerRadius = 0;
-  self.borderWidth = 0.0;  
-}
-
 - (void)drawRect:(NSRect)rect
 {
 	[super drawRect:rect];

@@ -29,16 +29,6 @@
 
 @implementation MHInfoToolbarBackgroundView
 
--(void)awakeFromNib
-{
-  CGFloat v = 192;
-	self.endingColor = [NSColor colorWithDeviceRed:v/255.0 green:v/255.0 blue:v/255.0 alpha:1.0];
-  v = 230;
-  self.startingColor = [NSColor colorWithDeviceRed:v/255.0 green:v/255.0 blue:v/255.0 alpha:1.0];
-  self.angle = 90;
-  self.cornerRadius = 0;
-  self.borderWidth = 0.0;  
-}
 
 - (void)drawRect:(NSRect)rect
 {

@@ -29,7 +29,6 @@
 
 #import "MAAttachedWindow.h"
 #import "TPPopuplistView.h"
-#import "SBGradientView.h"
 
 #define TPPopupListReplace 0
 #define TPPopupListInsert 1
@@ -44,7 +43,7 @@
 	NSMutableArray *entries;
 	NSPoint point;
 	IBOutlet NSTableView *table;
-	IBOutlet SBGradientView *gradientView;
+	IBOutlet NSView *gradientView;
 }
 
 @property (assign) BOOL isVisible;

@@ -27,8 +27,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "SBGradientView.h"
 
-@interface MHMiniConsoleBackground : SBGradientView
+@interface MHMiniConsoleBackground : NSView
 
 @end

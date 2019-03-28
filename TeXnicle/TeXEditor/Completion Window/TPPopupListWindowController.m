@@ -162,11 +162,6 @@
     if (self.title) {
       [titleView setStringValue:self.title];
     }
-		[gradientView setStartingColor:[NSColor whiteColor]];
-		[gradientView setEndingColor:[NSColor lightGrayColor]];
-		[gradientView setAngle:270.0];
-    
-    
 	} // end if !attachedWindow
 }
 
