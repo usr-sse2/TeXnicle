@@ -146,7 +146,7 @@
                         <constraint firstItem="37" firstAttribute="leading" secondItem="56" secondAttribute="trailing" constant="7" id="rx6-No-llF"/>
                     </constraints>
                 </customView>
-                <scrollView borderType="none" horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" hasHorizontalScroller="NO" usesPredominantAxisScrolling="NO" horizontalScrollElasticity="none" verticalScrollElasticity="none" translatesAutoresizingMaskIntoConstraints="NO" id="3">
+                <scrollView borderType="none" horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" hasHorizontalScroller="NO" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3">
                     <rect key="frame" x="0.0" y="0.0" width="532" height="596"/>
                     <clipView key="contentView" drawsBackground="NO" copiesOnScroll="NO" id="wOU-Ff-0ES">
                         <rect key="frame" x="0.0" y="0.0" width="532" height="596"/>
