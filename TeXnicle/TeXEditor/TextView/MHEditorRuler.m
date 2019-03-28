@@ -95,7 +95,7 @@
     
     [self setColors];
     
-    self.font = [NSFont labelFontOfSize:[NSFont systemFontSizeForControlSize:NSMiniControlSize]];
+    self.font = [NSFont monospacedDigitSystemFontOfSize:[NSFont systemFontSizeForControlSize:NSMiniControlSize] weight:NSFontWeightRegular];
     
     // initialise the folding tag descriptions
     self.foldingTagDescriptions = [[NSMutableArray alloc] init];    
@@ -165,7 +165,8 @@
   [self resetLineNumbers];
   [self recalculateThickness];
   [self calculationsForTextRange:visibleRange];
-  [self setNeedsDisplay:YES];
+
+  [self.textView setWrapStyle];
   [self.textView setNeedsDisplay:YES];
 }
 
@@ -493,7 +494,7 @@
     if (fabs(oldThickness - newThickness) > 1)
     {
       _newThickness = newThickness;
-      [self performSelectorOnMainThread:@selector(setNewThickness) withObject:nil waitUntilDone:NO];
+      [self performSelectorOnMainThread:@selector(setNewThickness) withObject:nil waitUntilDone:YES];
     }
     _forceThicknessRecalculation = NO;
   }

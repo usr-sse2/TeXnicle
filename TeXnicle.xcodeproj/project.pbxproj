@@ -3396,12 +3396,6 @@
 				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = bobsoft;
 				TargetAttributes = {
-					250772EB138E5D81000F1118 = {
-						DevelopmentTeam = 8YK29FYVK4;
-					};
-					25077311138E5D82000F1118 = {
-						DevelopmentTeam = 8YK29FYVK4;
-					};
 					250BE012162BEF3A007784DB = {
 						TestTargetID = 250772EB138E5D81000F1118;
 					};
@@ -3416,6 +3410,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 250772E1138E5D81000F1118;
@@ -3865,7 +3860,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "LOCATION=\"${BUILT_PRODUCTS_DIR}\"/\"${FRAMEWORKS_FOLDER_PATH}\"\nIDENTITY=\"Mac Developer: Martin Hewitson (XQ47SF7QM8)\"\ncodesign --verbose --force --sign \"$IDENTITY\" \"$LOCATION/Sparkle.framework/Versions/A\"";
+			shellScript = "LOCATION=\"${BUILT_PRODUCTS_DIR}\"/\"${FRAMEWORKS_FOLDER_PATH}\"\nIDENTITY=\"Mac Developer\"\ncodesign --verbose --force --sign \"$IDENTITY\" \"$LOCATION/Sparkle.framework/Versions/A\"\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -4097,7 +4092,6 @@
 				2536A4CC18143CBC00C11DDB /* TPNewEnvironment.m in Sources */,
 				250BE02F162BFD68007784DB /* NSString+Reformatting.m in Sources */,
 				250BE032162BFF49007784DB /* NSString+Reformatting_Private.m in Sources */,
-				25E65C53179D255F00B0FA5A /* MHWhiteBackgroundView.m in Sources */,
 				2520AC1716A7F559006E9CA2 /* TPBoxView.m in Sources */,
 				25DE6CB116B3C68E008290F2 /* NSResponder+TeXnicle.m in Sources */,
 				250E7BA816B53F3C00EED1CD /* TPSectionListSection.m in Sources */,
@@ -4401,6 +4395,7 @@
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = P5ZFLGLAFT;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -4427,6 +4422,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = P5ZFLGLAFT;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -4455,6 +4451,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = P5ZFLGLAFT;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)",
@@ -4490,6 +4487,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = P5ZFLGLAFT;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)",
@@ -4526,6 +4524,7 @@
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = P5ZFLGLAFT;
 				FRAMEWORK_SEARCH_PATHS = (
 					"\\\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\\\"",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
@@ -4573,6 +4572,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = P5ZFLGLAFT;
 				FRAMEWORK_SEARCH_PATHS = (
 					"\\\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\\\"",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",

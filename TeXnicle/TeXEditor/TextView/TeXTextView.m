@@ -1128,20 +1128,25 @@ NSString * const TEDidFoldUnfoldTextNotification = @"TEDidFoldUnfoldTextNotifica
     [textContainer setContainerSize:NSMakeSize(self.averageCharacterWidth*self.wrapAt*kFontWrapScaleCorrection, LargeTextHeight)];
     [self setHorizontallyResizable:YES];
     [self setVerticallyResizable:YES];
+
   }	else if (self.wrapStyle == TPNoWrap) {
     //NSLog(@"No wrap");
     [textContainer setWidthTracksTextView:NO];
     [textContainer setContainerSize:NSMakeSize(LargeTextWidth, LargeTextHeight)];
     [self setHorizontallyResizable:YES];
     [self setVerticallyResizable:YES];
+
   }	else if (self.wrapStyle == TPWindowWrap) {
     
     [self setVerticallyResizable:YES];
-    [self setHorizontallyResizable: NO];
-    [self setAutoresizingMask: NSViewWidthSizable];
+    [self setHorizontallyResizable: YES];
+    [self setAutoresizingMask: NSViewHeightSizable | NSViewWidthSizable];
     [textContainer setWidthTracksTextView: YES];
-    [self setFrameSize: [[self enclosingScrollView] contentSize]];
     
+    [self.editorRuler layout];
+    NSSize size = [[self enclosingScrollView] contentSize];
+    size.width -= self.editorRuler.ruleThickness;
+    [self setFrameSize: size];
   } else {
     //NSLog(@"Hard wrap");
     // set large size - hard wrap is handled in the wrapLine
@@ -2963,7 +2968,7 @@ NSString * const TEDidFoldUnfoldTextNotification = @"TEDidFoldUnfoldTextNotifica
   
   // do rest of background
   [self.documentEditorBackgroundColor set];
-  NSRect br = NSIntegralRect(NSMakeRect(0, rect.origin.y, w, rect.size.height));
+  NSRect br = NSIntegralRect(NSMakeRect(rect.origin.x, rect.origin.y, w, rect.size.height));
 //  NSLog(@"Background %@", NSStringFromRect(br));
   [NSBezierPath fillRect:br];
   
